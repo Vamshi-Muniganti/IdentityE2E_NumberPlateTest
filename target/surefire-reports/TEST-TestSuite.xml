@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="TestSuite" time="2.151" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.2+7-LTS"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/vmuniganti/eclipse-workspace/SeleniumAutomationFramework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/vmuniganti/eclipse-workspace/SeleniumAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.2+7-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/sr/y25rf7hd43l4dnvlbf25k1bw0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/vmuniganti/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1008570415979498312.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vmuniganti/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/vmuniganti"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="vmuniganti"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/vmuniganti/eclipse-workspace/SeleniumAutomationFramework/EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="demo.ElementsTest" name="Test01" time="0.012">
+    <failure message="Specified proxy type (MANUAL) not compatible with current setting (AUTODETECT)" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Specified proxy type (MANUAL) not compatible with current setting (AUTODETECT)
+	at org.openqa.selenium.Proxy.verifyProxyTypeCompatibility(Proxy.java:406)
+	at org.openqa.selenium.Proxy.setHttpProxy(Proxy.java:242)
+	at demo.ElementsTest.Test01(ElementsTest.java:35)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2641e737
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 64319
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1666984244.009][WARNING]: FromSockAddr failed on netmask
+[1666984244.009][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Oct 28, 2022 8:10:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 28, 2022 8:10:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 106
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 51333
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1666984245.927][WARNING]: FromSockAddr failed on netmask
+[1666984245.927][WARNING]: FromSockAddr faileChromeDriver wasd on netmask
+ started successfully.
+Oct 28, 2022 8:10:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 28, 2022 8:10:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 106
+</system-err>
+  </testcase>
+  <testcase classname="demo.BrowserTest" name="getDriver" time="2.139"/>
+</testsuite>

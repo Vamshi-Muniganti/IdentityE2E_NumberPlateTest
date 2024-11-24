@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.436 sec <<< FAILURE!
+Test01(demo.ElementsTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.IllegalStateException: Specified proxy type (MANUAL) not compatible with current setting (AUTODETECT)
+	at org.openqa.selenium.Proxy.verifyProxyTypeCompatibility(Proxy.java:406)
+	at org.openqa.selenium.Proxy.setHttpProxy(Proxy.java:242)
+	at demo.ElementsTest.Test01(ElementsTest.java:35)
+
