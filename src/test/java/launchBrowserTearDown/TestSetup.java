@@ -14,27 +14,22 @@ import org.testng.annotations.BeforeTest;
 
 
 public class TestSetup {
-	
-	//public WebDriver driver = new ChromeDriver();
-	
+		
 	public WebDriver driver = new ChromeDriver();
 	
 	@BeforeTest
 	public void test_setup()throws Exception {
-		//WebDriver driver = new ChromeDriver();
-		//ChromeOptions chromeOptions = new ChromeOptions();
-		//chromeOptions.addArguments("--start-maximized", "chrome.switches", "--disable-extensions");
-		//WebDriver driver = new ChromeDriver(chromeOptions);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().deleteAllCookies();
 		driver.navigate().to("https://www.autotrader.co.uk/cars/valuation");
-//		
+
+// AutoTrader Cookie frame to accept code but somehow its not working"
 //		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //
-//        // Locate the "Accept All" button using its XPath or CSS Selector
+//       
 //        WebElement acceptButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='notice']//button[@title='Accept All']")));
 //
-//        // Click the "Accept All" button to dismiss the cookie popup
+//      
 //        acceptButton.click();
 		}
 		
